@@ -1,7 +1,4 @@
 #!/bin/bash
-# created by freenandaa
-# kalo nampak kek gini lihat syntax nya ngentod
-# bukannya malah recode+ganti author anak" kontol
 MER='\033[0;31m'
 CY='\033[0;36m'
 KUN='\033[1;33m'
